@@ -78,6 +78,5 @@ export default function TagTree() {
     })();
   }, []);
 
-  // Might need to specify initialData instead
-  return <Tree data={data} />;
+  return <>{!data.length <= 0 ? null : <Tree initialData={data} />}</>;
 }
