@@ -1,7 +1,7 @@
 // What would a shell look like?
 import { AppShell, Navbar, Header } from '@mantine/core';
 
-function Demo() {
+export default function Demo() {
   return (
     <AppShell
       padding="md"
